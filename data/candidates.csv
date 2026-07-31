@@ -1,0 +1,5 @@
+name,email,skills,experience,resume_text
+Vijay Vignesh,vijay@example.com,"Java;Spring Boot;MySQL;Docker",3,"Java Developer with 3 years of experience in Java, Spring Boot, MySQL, REST APIs, Docker and Git."
+Arun Kumar,arun@example.com,"Python;Django;PostgreSQL",4,"Python Developer with 4 years of experience in Python, Django, PostgreSQL and REST APIs."
+Priya Sharma,priya@example.com,"Java;Spring Boot;AWS;Docker",5,"Senior Java Developer with 5 years of experience in Java, Spring Boot, AWS, Docker and Microservices."
+Rahul Raj,rahul@example.com,"React;JavaScript;Node.js;MongoDB",2,"Full Stack Developer with 2 years of experience in React, JavaScript, Node.js and MongoDB."
