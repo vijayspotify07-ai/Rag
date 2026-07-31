@@ -112,9 +112,9 @@ def score_candidate_for_job(
 
 ):
 
-    # ---------------------------------
+    
     # 1. Find the job
-    # ---------------------------------
+    
 
     job = (
 
@@ -138,9 +138,9 @@ def score_candidate_for_job(
         )
 
 
-    # ---------------------------------
+    
     # 2. Find the candidate
-    # ---------------------------------
+    
 
     candidate = (
 
@@ -164,9 +164,9 @@ def score_candidate_for_job(
         )
 
 
-    # ---------------------------------
+    
     # 3. Call OpenAI
-    # ---------------------------------
+    
 
     try:
 
@@ -190,9 +190,9 @@ def score_candidate_for_job(
         )
 
 
-    # ---------------------------------
+
     # 4. Save result in MySQL
-    # ---------------------------------
+
 
     score = Score(
 
@@ -214,9 +214,9 @@ def score_candidate_for_job(
     db.refresh(score)
 
 
-    # ---------------------------------
+    
     # 5. Return result
-    # ---------------------------------
+    
 
     return {
 
